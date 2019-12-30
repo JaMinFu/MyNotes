@@ -35,8 +35,8 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 2.在本地的仓库运行命令：$ git remote add origin https://github.com/JaMinFu/Code.git
 3.把本地推送到远端 $ git push -u origin master 远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。推送成功后GitHub页面中看到远程库的内容已经和本地一模一样，
 后面从本地提交就可以通过简化命令 $ git push origin master
-4.$ git clone git@github.com:JaMinFu/gitskills.git 克隆远端文件
-5.修改测试
+4.$ git clone git@github.com:JaMinFu/gitskills.git 克隆远端文件 cd file =>ls 查看拉取的文件
+5.Creating a new branch is quick.
 
 
 
