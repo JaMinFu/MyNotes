@@ -48,3 +48,4 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 Creating a new branch is quick & simple.
 
 
+
