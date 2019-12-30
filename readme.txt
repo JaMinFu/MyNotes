@@ -45,7 +45,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 4.创建+切换分支git switch -c <name>或 git checkout -b <name>
 5.合并某分支到当前分支git merge <name>
 6.删除分支 git branch -d <name>
-Creating a new branch is quick & simple.
+7.解决冲突需要手动合并然后使用 git log --graph命令可以看到分支合并图
 
 
 
