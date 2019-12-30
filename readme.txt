@@ -36,8 +36,16 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 3.把本地推送到远端 $ git push -u origin master 远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。推送成功后GitHub页面中看到远程库的内容已经和本地一模一样，
 后面从本地提交就可以通过简化命令 $ git push origin master
 4.$ git clone git@github.com:JaMinFu/gitskills.git 克隆远端文件 cd file =>ls 查看拉取的文件
-5.Creating a new branch is quick.
+--------------------------------分支------------------------------------------------
+(分支运用情景，假设你准备开发一个新功能，但是需要两周才能完成，第一周你写了50%的代码，如果立刻提交，由于代码还没写完，不完整的代码库会导致别人不能干活了。如果等代码全部写完再一次提交，又存在丢失每天进度的巨大风险。
+现在有了分支，就不用怕了。你创建了一个属于你自己的分支，别人看不到，还继续在原来的分支上正常工作，而你在自己的分支上干活，想提交就提交，直到开发完毕后，再一次性合并到原来的分支上，这样，既安全，又不影响别人工作。)
+1.git branch 查看分支
+2.git branch <name> 创建分支
+3.git switch<name> 切换分支或者（git checkout <name>注意别混淆git checkout --file）
+4.创建+切换分支git switch -c <name>或 git checkout -b <name>
+5.合并某分支到当前分支git merge <name>
+6.删除分支 git branch -d <name>
 
-
+Creating a new branch is quick AND simple.
 
 
