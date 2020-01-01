@@ -46,6 +46,6 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 5.合并某分支到当前分支git merge <name>
 6.删除分支 git branch -d <name>
 7.解决冲突需要手动合并然后使用 git log --graph命令可以看到分支合并图
-
+8.add a new branch create by jamin
 
 
