@@ -49,3 +49,5 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 8.git merge --no-ff -m “合并信息”<dev(分支)>  切换为普通模式合并保留分支记录； 通常合并分支git会用fast forward 模式，会删除分支，丢失分支信息，切换普通模式合并合并后有分支历史。合并后的历史有分支，能看出来曾经做过合并，默认的模式看不出来
 
 
+
+
