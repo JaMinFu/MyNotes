@@ -47,5 +47,6 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 6.删除分支 git branch -d <name>
 7.解决冲突需要手动合并然后使用 git log --graph命令可以看到分支合并图
 
+11
 
 
